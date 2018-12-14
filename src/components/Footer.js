@@ -38,7 +38,7 @@ const Footer = () => (
         Made by <a href="https://github.com/danielgittings">Daniel Gittings</a>
       </p>
       <p>
-        <a href="https://github.com/danielgittings/levelupsum.com">
+        <a href="https://github.com/danielgittings/loremeelsum">
           <svg
             aria-labelledby="github-icon"
             viewBox="0 0 24 24"

@@ -1,3 +1,3 @@
-### Level Upsum
+### Lorem Eelsum
 
-Placeholder text generator for video game fans.
+Placeholder text generator for eel fans.
