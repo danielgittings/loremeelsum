@@ -4,10 +4,10 @@ import styled from 'styled-components';
 const MainHeader = styled.header`
   text-align: center;
   padding: 80px 20px 100px;
-  background-color: #039e61;
+  background-color: #e26a21;
 
   @media all and (min-width: 500px) {
-    padding: 150px 20px 100px;
+    padding: 80px 20px 100px;
   }
 
   > div {
@@ -19,7 +19,7 @@ const MainHeader = styled.header`
 const Title = styled.h1`
   margin: 0 0 10px;
   font-size: 40px;
-  font-family: 'Luckiest Guy';
+  font-family: 'Satisfy';
   font-weight: 400;
   text-shadow: 8px 8px 3px rgba(0, 0, 0, 0.1);
   color: #fbfbff;
@@ -37,27 +37,26 @@ const Title = styled.h1`
   }
 `;
 
-const Subheading = styled.h3`
-  font-size: 22px;
-  color: white;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
-  margin: 0 0 50px;
-  letter-spacing: 1.5px;
+// const Subheading = styled.h3`
+//   font-size: 22px;
+//   color: white;
+//   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+//   margin: 0 0 50px;
+//   letter-spacing: 1.5px;
 
-  @media all and (min-width: 400px) {
-    margin: 0 0 75px;
-  }
+//   @media all and (min-width: 400px) {
+//     margin: 0 0 75px;
+//   }
 
-  @media all and (min-width: 500px) {
-    font-size: 26px;
-  }
-`;
+//   @media all and (min-width: 500px) {
+//     font-size: 26px;
+//   }
+// `;
 
 const Header = () => (
   <MainHeader>
     <div>
-      <Title>Level upsum</Title>
-      <Subheading>Video game placeholder text</Subheading>
+      <Title>Lorem Eelsum</Title>
     </div>
   </MainHeader>
 );

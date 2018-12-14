@@ -77,7 +77,7 @@ class Generator extends Component {
 
       // Get a random number that defines the number of words per sentence
       // For this app we define a sentence as being between 8 and 15 words.
-      const numWords = this.getRandomNumber(8, 12);
+      const numWords = this.getRandomNumber(4, 8);
 
       for (let i = 1; i <= numWords; i++) {
         let rand = this.getRandomNumber(0, length + 1);
